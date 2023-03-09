@@ -1,1 +1,31 @@
 export * from 'node:fs/promises';
+
+export {
+	access,
+	copyFile,
+	open,
+	opendir,
+	rename,
+	truncate,
+	rm,
+	rmdir,
+	mkdir,
+	readdir,
+	readlink,
+	symlink,
+	lstat,
+	stat,
+	link,
+	unlink,
+	chmod,
+	lchmod,
+	lchown,
+	chown,
+	utimes,
+	lutimes,
+	realpath,
+	mkdtemp,
+	writeFile,
+	appendFile,
+	readFile
+} from 'node:fs/promises';
